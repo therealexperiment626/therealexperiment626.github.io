@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: rgb(247, 163, 8);
+    text-align: center;}
+body {
+    background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_134/f_auto,q_auto,w_1100/v1633552438/shape/mentalfloss/651042-gettyimages-1326020302.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    margin: 0 auto;}
+#header {
+    font-family:'GrundschriftRegular';
+}
+#content {
+    overflow: auto;}
+#nav, #feature, #footer {
+    margin: 1%;}
+#feature {
+    background-image: url("https://i.pinimg.com/originals/f9/a1/06/f9a106d129c95de9afdfd784d4d513c3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;}
+.column1 {
+    background-color:darkmagenta;
+}
+.column2 {
+    background-color: darkblue;
+}
+.column3 {
+    background-color: cornflowerblue;
+    margin-right: 0%;}
+li {
+    display: inline;
+    padding: 0.5em;}
+#nav, #footer {
+    background-color: rgb(77, 88, 148);
+    padding: 0.5em 0;}
+#feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+}
