@@ -229,7 +229,7 @@ function state(){
     var errorMessages = "";
 
     //3) Do validation
-    if (getState==="null" || getState==="") {
+    if (getState==="null" || getState==="-") {
         errorMessages += "<p>State required</p>";
         console.log("State invalid — length")
         } 
@@ -254,7 +254,7 @@ function country(){
     var errorMessages = "";
 
     //3) Do validation
-    if (seeCountry==="null" || seeCountry==="") {
+    if (seeCountry==="null" || seeCountry==="-") {
         errorMessages += "<p>Country required</p>";
         console.log("Country invalid — length")
         } 
