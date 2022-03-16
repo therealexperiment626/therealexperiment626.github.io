@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading & Nav */
+
+header {
+    display: flex;
+    background: rgba(255, 255, 255, 0.7);
+    height: 50px;
+}
+
+#maren {
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+#maren a {
+    text-decoration: none;
+    color: black;
+    font-family: 'NicolasFrespechRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 80%;
+}
+
+#navigation {
+    width: 100%;
+    height: 50px;
+    min-width: 600px;
+}
+
+.navlink {
+    display: inline;
+    padding: 1em;
+    float: right;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* body */
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1505118380757-91f5f5632de0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG9jZWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1200&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.main-heading {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 30px;
+}
+
+/* footer */
+
+footer {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 50px;
+    position: sticky;
+    top: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* Home Page */
+
+
+
+/* Artifacts Page */
+
+#artifacts {
+    text-align: center;
+}
+
+#artifacts img {
+    height: 100px;
+    padding: 20px;
+}
+
+
+
+#artifacts p {
+    padding: 10px;
+}
+
+/* contact me */
+
+#contact-form {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#contact-form div {
+    padding: 10px;
+}
+
+fieldset {
+    border: none;
+}
+
